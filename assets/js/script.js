@@ -19,17 +19,16 @@ let length = prompt ("How many characters should the password be, between 8 and 
   else {
     localStorage.setItem("length", password);
   } 
-}
 //ask if letters uppercase
-// let uppercase = confirm ("Include upper case letters in your password?");
-// //ask if letters lowercase
-// let lowercase = confirm ("Include lower case letters in your password?");
-// //ask if numbers
-// let numeric = confirm ("Include numbers in your password?");
-// //ask if special characters
-// let special = confirm ("Include special characters in your password?");
-// }
-// //function for getting random element from an array
+let uppercase = confirm ("Include upper case letters in your password?");
+//ask if letters lowercase
+let lowercase = confirm ("Include lower case letters in your password?");
+//ask if numbers
+let numeric = confirm ("Include numbers in your password?");
+//ask if special characters
+let special = confirm ("Include special characters in your password?");
+}
+//function for getting random element from an array
 
 // }
 function getRandom(uppercaseChar) {
